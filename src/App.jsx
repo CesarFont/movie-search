@@ -44,8 +44,9 @@ function App() {
             />
             <input type='checkbox' onChange={handleSort} checked={sort} />
             <button>Search</button>
-            {loading && <p>Loading...</p>}
             {error && <p style={{ color: 'red' }}>{error}</p>}
+            {console.log(loading)}
+            {loading && <p style={{ color: 'white', fontSize: '20px' }}>Loading...</p>}
           </form>
         </header>
         <main>
