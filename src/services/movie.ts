@@ -1,4 +1,4 @@
-const API_URL = 'http://www.omdbapi.com/?apikey=8bca8940';
+const API_URL = 'https://www.omdbapi.com/?apikey=8bca8940';
 
 export interface Movie {
   id: string;
